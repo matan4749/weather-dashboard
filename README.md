@@ -14,35 +14,25 @@
 
 ## ⛅ Overview
 
-A **beautiful weather dashboard** that shows real-time weather conditions and a 5-day forecast for any city. Built with React 18 and the OpenWeatherMap API.
+A **beautiful weather dashboard** with real-time conditions and 5-day forecast for any city worldwide.
 
 <br/>
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>Current Weather</strong></td>
-      <td align="center"><strong>5-Day Forecast</strong></td>
-    </tr>
-    <tr>
-      <td><img src="https://via.placeholder.com/480x300/0a3d62/87CEEB?text=Current+Weather" width="480"/></td>
-      <td><img src="https://via.placeholder.com/480x300/1e3a5f/87CEEB?text=5-Day+Forecast" width="480"/></td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/matan4749/weather-dashboard/main/docs/screenshot.png" width="800"/>
 </div>
 
 <br/>
 
 ## ✨ Features
 
-- 🌍 **City Search** — Look up weather for any city worldwide
-- 🌡️ **Current Conditions** — Temperature, humidity, wind speed, feels-like
+- 🌍 **City Search** — Live weather for any city worldwide
+- 🌡️ **Current Conditions** — Temperature, humidity, wind speed, pressure, feels-like
 - 📅 **5-Day Forecast** — Daily breakdown with weather icons
-- 🎨 **Dynamic Backgrounds** — UI changes with weather conditions
+- 🎨 **Gradient UI** — Beautiful purple/blue gradient background
 - 📱 **Responsive** — Works on all screen sizes
-- ⚡ **Vite** — Fast hot-reload development
 
 <br/>
 
@@ -68,7 +58,6 @@ Get a free API key at [openweathermap.org](https://openweathermap.org/api)
 - **React 18** — Component-based UI
 - **Vite 5** — Build tool with HMR
 - **OpenWeatherMap API** — Live weather data
-- **CSS Modules** — Scoped styles
 
 <br/>
 
