@@ -1,123 +1,80 @@
-# 🌤️ Weather Dashboard
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,9,17&height=180&section=header&text=Weather%20Dashboard%20⛅&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Real-Time%20Forecasts%20%7C%20Beautiful%20UI&descAlignY=58&descSize=18" width="100%"/>
+</div>
 
-A beautiful and responsive weather dashboard built with React and Vite. Get real-time weather information and a 5-day forecast for any city worldwide.
+<div align="center">
 
-![Weather Dashboard](https://img.shields.io/badge/React-19.2.0-blue)
-![Vite](https://img.shields.io/badge/Vite-7.2.4-purple)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![OpenWeather](https://img.shields.io/badge/OpenWeather-API-orange?style=for-the-badge&logo=openstreetmap&logoColor=white)](https://openweathermap.org/api)
+
+</div>
+
+<br/>
+
+## ⛅ Overview
+
+A **beautiful weather dashboard** that shows real-time weather conditions and a 5-day forecast for any city. Built with React 18 and the OpenWeatherMap API.
+
+<br/>
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong>Current Weather</strong></td>
+      <td align="center"><strong>5-Day Forecast</strong></td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/480x300/0a3d62/87CEEB?text=Current+Weather" width="480"/></td>
+      <td><img src="https://via.placeholder.com/480x300/1e3a5f/87CEEB?text=5-Day+Forecast" width="480"/></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
 
 ## ✨ Features
 
-- **Real-time Weather Data**: Get current weather conditions for any city
-- **5-Day Forecast**: View upcoming weather predictions
-- **Beautiful UI**: Modern, gradient-based design with smooth animations
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Weather Details**: Temperature, humidity, wind speed, pressure, and more
-- **Search Functionality**: Easy city search with instant results
-- **Weather Icons**: Visual representation of weather conditions
+- 🌍 **City Search** — Look up weather for any city worldwide
+- 🌡️ **Current Conditions** — Temperature, humidity, wind speed, feels-like
+- 📅 **5-Day Forecast** — Daily breakdown with weather icons
+- 🎨 **Dynamic Backgrounds** — UI changes with weather conditions
+- 📱 **Responsive** — Works on all screen sizes
+- ⚡ **Vite** — Fast hot-reload development
 
-## 🚀 Demo
+<br/>
 
-The app displays:
-- Current temperature and "feels like" temperature
-- Weather condition with emoji icons
-- Humidity percentage
-- Wind speed
-- Atmospheric pressure
-- 5-day weather forecast with daily temperatures
+## 🚀 Getting Started
 
-## 🛠️ Technologies Used
-
-- **React 19.2** - UI library
-- **Vite 7.2** - Build tool and dev server
-- **CSS3** - Modern styling with gradients and animations
-- **OpenWeatherMap API** - Weather data (configured for demo mode)
-
-## 📦 Installation
-
-1. Clone the repository:
 ```bash
 git clone https://github.com/matan4749/weather-dashboard.git
 cd weather-dashboard
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
 
-3. Start the development server:
-```bash
+# Add your OpenWeatherMap API key
+echo "VITE_WEATHER_API_KEY=your_key_here" > .env
+
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+Get a free API key at [openweathermap.org](https://openweathermap.org/api)
 
-## 🔧 Build for Production
+<br/>
 
-```bash
-npm run build
-```
+## 🛠️ Built With
 
-The built files will be in the `dist` directory.
+- **React 18** — Component-based UI
+- **Vite 5** — Build tool with HMR
+- **OpenWeatherMap API** — Live weather data
+- **CSS Modules** — Scoped styles
 
-## 🌐 Usage
+<br/>
 
-1. The app loads with default city (Tel Aviv)
-2. Use the search bar to enter any city name
-3. Click "Search" or press Enter
-4. View current weather and 5-day forecast
+<div align="center">
 
-## 📝 API Configuration
+Made with ❤️ by [Matan Amar](https://matan.life)
 
-To use real weather data instead of demo mode:
-
-1. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
-2. Replace the `API_KEY` in `src/App.jsx`
-3. Uncomment the real API call in the `fetchWeather` function
-
-## 🎨 Features Showcase
-
-### Current Weather Display
-- Large, easy-to-read temperature display
-- Weather condition with emoji representation
-- Detailed metrics in organized cards
-- Smooth loading states
-
-### 5-Day Forecast
-- Daily temperature predictions
-- Weather condition icons
-- Hover effects for better UX
-- Responsive grid layout
-
-### Search Experience
-- Clean, modern search interface
-- Error handling with user-friendly messages
-- Loading indicators during data fetch
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-**Matan Amar**
-- GitHub: [@matan4749](https://github.com/matan4749)
-- Portfolio: [matan.life](https://matan.life)
-
-## 🙏 Acknowledgments
-
-- Weather data provided by OpenWeatherMap
-- Icons and design inspiration from modern weather apps
-- Built as part of my portfolio to demonstrate React and API integration skills
-
----
-
-⭐ If you like this project, please give it a star on GitHub!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,9,17&height=80&section=footer" width="100%"/>
+</div>
